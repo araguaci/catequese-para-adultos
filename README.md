@@ -10,7 +10,7 @@ Ao longo de aulas breves, ilustradas com exemplos de fácil entendimento, você 
 
 ## Introdução - 24:59
 
- - 12:06 - 01. Por que estamos neste mundo?
+ - 12:06 - [01. Por que estamos neste mundo?](https://catequese-para-adultos.vercel.app//audio/1-por-que-estamos-neste-mundo.mp3)
    - Toda boa catequese deveria começar pela pergunta mais fundamental de todas: por que, afinal de contas, estamos neste mundo? É só com uma resposta adequada a esta dúvida mais do que inquietante que...
  - 12:53 - 02. Como Deus quer que sejamos felizes?
 
