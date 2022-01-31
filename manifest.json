@@ -1,0 +1,145 @@
+{
+    "@context": "http://readium.org/webpub/default.jsonld",
+    "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Catequese para Adultos",
+        "author": {
+            "name": "Padre Paulo Ricardo",
+            "sortAs": "Padre Paulo Ricardo"
+        },
+        "narrator": "Padre Paulo Ricardo",
+        "language": "pt",
+        "description": "A fé de dois mil anos da Igreja, explicada de forma concisa, simples e acessível a todos, é o que este curso de catequese deseja transmitir.",
+        "publisher": "Padre Paulo Ricardo",
+        "modified": "2021-01-31",
+        "published": "2021-01-31"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": ".",
+            "type": "application/audiobook+json"
+        },
+        {
+            "rel": "cover",
+            "href": "https://arquivos.padrepauloricardo.org/uploads/curso/imagem/187/catequese-para-adultos-desktop.jpg",
+            "type": "image/jpeg",
+            "height": 500,
+            "width": 500
+        }
+    ],
+    "readingOrder": [
+        {
+            "href": "audio/1-por-que-estamos-neste-mundo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/2-como-deus-quer-que-sejamos-felizes.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/3-o-deus-que-se-revela.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/4-nao-ha-cristo-sem-igreja.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/5-como-nasce-a-virtude-da-fe.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/6-como-saber-onde-esta-a-verdadeira-fe.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/7-o-magisterio-da-igreja-e-os-dogmas-da-fe.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/8-deus-existe.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/9-o-que-significa-criar.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/10-as-coisas-visiveis-e-invisiveis.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/11-mal-uma-invencao-angelica.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/12-a-promessa-do-salvador.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/13-e-o-verbo-se-fez-carne.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/14-o-misterio-da-santissima-trindade.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/15-o-misterio-de-JESUS-cristo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/16-uma-so-pessoa-em-duas-naturezas.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/17-a-visao-beatifica-de-JESUS-cristo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/18-cristo-sacerdote-e-vitima.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/19-a-nossa-incorporacao-a-cristo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/20-as-dores-de-cristo-durante-a-paixao.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/21-a-justica-da-redencao.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/22-a-humanidade-ressuscitada-de-cristo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/23-o-que-significa-a-ascensao-de-cristo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/24-por-que-JESUS-nos-enviou-o-espirito-santo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/25-o-que-e-a-graca-atual.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/26-o-que-e-a-graca-santificante.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/27-creio-na-santa-igreja-catolica.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/28-ha-salvacao-fora-da-igreja.mp3",
+            "type": "audio/mpeg"
+        }
+    ]
+}

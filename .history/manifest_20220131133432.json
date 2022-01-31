@@ -1,0 +1,81 @@
+{
+    "@context": "http://readium.org/webpub/default.jsonld",
+    "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Catequese para Adultos",
+        "author": {
+            "name": "Padre Paulo Ricardo",
+            "sortAs": "Padre Paulo Ricardo"
+        },
+        "narrator": "Padre Paulo Ricardo",
+        "language": "pt",
+        "description": "A fé de dois mil anos da Igreja, explicada de forma concisa, simples e acessível a todos, é o que este curso de catequese deseja transmitir.",
+        "publisher": "KCSoc Warwick",
+        "modified": "2021-01-31",
+        "published": "2021-01-31"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": ".",
+            "type": "application/audiobook+json"
+        },
+        {
+            "rel": "cover",
+            "href": "image/capa.jpg",
+            "type": "image/jpeg",
+            "height": 300,
+            "width": 300
+        }
+    ],
+    "readingOrder": [
+        {
+            "href": "audio/1-por-que-estamos-neste-mundo.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_1_Part_2_We_are_not_these_bodies_Read_by_Kanaeshvarr_Devanand.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_1_Part_3_We_are_not_these_bodies_Read_by_Janarth_Duraisingham.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_2_Part_1_Elevation_at_Death_Read_by_Devi_Devanand.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_2_Part_2_Elevation_at_Death_Read_by_Viren_Samani.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_2_Part_3_Elevation_at_Death_Read_by_Sanket_Vaidya.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_3_Part_1_Liberation_from_Material_Planets_Read_by_Gowri_Satish.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_3_Part_2_Liberation_from_Material_Planets_Read_by_Sakshi_Mittal.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_4_Part_1_The_Sky_Beyond_the_Universe_Read_by_Shubhangi_Bhatt.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_4_Part_2_The_Sky_Beyond_the_Universe_Read_by_Prasanna_Asokkumar.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_5_Part_1_Associating_with_Krsna_Read_by_Nirthan_Vamdevan.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "book/Chapter_5_Part_2_Associating_with_Krsna_Read_by_Dhaval_Soneji.mp3",
+            "type": "audio/mpeg"
+        }
+    ]
+}
