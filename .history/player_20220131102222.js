@@ -146,7 +146,7 @@ String.prototype.replaceAll = function (stringToFind, stringToReplace) {
           return element_url.href == current_src;
         });
         temp = readingOrder[current_index].href;
-        temp = temp.substring(6, temp.length - 4);
+        temp = temp.substring(5, temp.length - 4);
         temp = temp.replaceAll("_", " ");
         ting.innerHTML = temp;
         if (current_index >= 0) {
