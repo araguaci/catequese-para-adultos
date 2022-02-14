@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Catequese para Adultos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.js"
+      integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE="crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <style>
+      body, html, div, nav, main, p, .container {
+        background: black;
+        background-color: black;
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="text-align:center; padding: 10px;">
+      <img src="./image/christo_nihil_præponere.png" style="max-height:10%;
+        max-width: 10%;">
+    </div>
+    <main>
+      <img id="cover" style="display:block; margin:auto; width: 50em;">
+      <div style="text-align: center; margin-top: 20px;">
+        <p id="current"></p>
+      </div>
+      <audio id="audio-element" autoplay controls style="display:block;
+        margin:auto; padding: 10px;">
+        <source id="audio-source" type="audio/mpeg">
+      </audio>
+    </main>
+    <nav style="text-align: center; padding: 20px;">
+      <a id="previous" rel="prev">&lt;&nbsp;Anterior</a>
+      &nbsp;&nbsp;
+      <a id="next" rel="next">Próximo&nbsp;&gt;</a>
+    </nav>
+    <script src="polyfills/fetch.js"></script>
+    <script src="polyfills/urlsearchparams.js"></script>
+    <script src="player.js" async></script>
+    <br />Compatilhe coisas boas!
+    <div class="c-base-cheatsheet__share">
+      <div class="c-base-share c-base-cheatsheet__network" data-balloon="Share
+        on Facebook" data-balloon-pos="up" data-balloon-type="mini">
+        <a title="Voltar ao Início"
+          href="https://catequese-para-adultos.vercel.app//"><img
+            class="c-base-share__image" src="./images/BaseShare/home.png"></a>
+        <a title="Compatilhe no Facebook"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://catequese-para-adultos.vercel.app//"><img
+            class="c-base-share__image" src="./images/BaseShare/facebook.svg"></a>
+        <a title="Compatilhe no Twitter"
+          href="https://twitter.com/intent/tweet?url=https://catequese-para-adultos.vercel.app//&text=Catequese%20para%20Adultos"><img
+            class="c-base-share__image" src="./images/BaseShare/twitter.svg"></a>
+        <a title="Compatilhe no Linkedin"
+          href="https://www.linkedin.com/shareArticle?mini=true&url=https://catequese-para-adultos.vercel.app//">
+          <img class="c-base-share__image"
+            src="./images/BaseShare/linkedin.svg"></a>
+        <a title="Compatilhe no Telegram"
+          href="https://telegram.me/share/url?url=https://catequese-para-adultos.vercel.app//&text=Catequese%20para%20Adultos"><img
+            class="c-base-share__image" src="./images/BaseShare/telegram.svg"></a>
+        <a title="Compatilhe no Pinterest"
+          href="https://pinterest.com/pin/create/button/?url=https://catequese-para-adultos.vercel.app//&media=&description=Catequese%20para%20Adultos"><img
+            class="c-base-share__image" src="./images/BaseShare/pinterest.png"></a>
+        <a title="Compatilhe por Email"
+          href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://catequese-para-adultos.vercel.app//%0ACatequese%20para%20Adultos"><img
+            class="c-base-share__image" src="./images/BaseShare/email.png"></a>
+        <a title="Compatilhe no Whatsapp"
+          href="https://api.whatsapp.com/send?phone=&text=SEJA%20GRATO%20-%20FATOS%20ESQUECIDOS%20-%20BREVE%20JORNADA%20DE%20200%20ANOS%20https://catequese-para-adultos.vercel.app//"><img
+            class="c-base-share__image" src="./images/BaseShare/whatsapp.svg"></a>
+      </div>
+    </div>
+  </body>
+</html>
